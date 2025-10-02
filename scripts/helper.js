@@ -11,4 +11,18 @@ async function readwrite (filePath, outputFileName) {
     }
 }
 
+export function getRandomInt(max) {
+    return Math.floor(Math.random() * max);
+}
+
+export function getRandomFloat() {
+    return Math.floor(Math.random());
+}
+
+
+export function getRandomBinaryFloat() {
+    let vals = [0.0,1.0]
+    return Math.floor(Math.random());
+}
+
 module.exports = { readwrite }
