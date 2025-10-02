@@ -17,8 +17,9 @@ then
 elif [ "$1" = "i" ]
 then
     # echo "route reconstruct" 
-    mkdir data data/analyzed data/analyzed/words data/analyzed/sentences data/processed data/rawText
+    mkdir data data/example-presets data/processed data/raw
     touch test.js
+    touch test.json
 else
     echo "Please indicate a valid route."
 fi
